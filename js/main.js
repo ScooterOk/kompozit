@@ -47,8 +47,8 @@ $('#color-preview').hover(
 )
 $('.alsobuy-slider').slick({
   infinite: false,
-  slidesToShow: 4,
-  slidesToScroll: 4
+  slidesToShow: $(window).width() < 1263 ? 3 : 4,
+  slidesToScroll: 1
 });
 $('#tabs-select li').click(function(e){
     var target = $(this).attr('data-target');
@@ -57,6 +57,13 @@ $('#tabs-select li').click(function(e){
     $('#tabs-content li').removeClass('current');
     $('#tabs-content').find('.'+target).addClass('current');
     console.log(target);
+});
+$(window).resize(function(e){
+    if($(e.target).width() < 1263){
+      $('.alsobuy-slider').slick('slickSetOption', 'slidesToShow', 3, true);  
+    }else{
+      $('.alsobuy-slider').slick('slickSetOption', 'slidesToShow', 4, true);
+    }
 })
 
 
