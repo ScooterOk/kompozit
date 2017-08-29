@@ -355,8 +355,7 @@ header.header .quick-access {
 .breadcrumbs-cell.right {
     text-align: right;
 }
-.breadcrumbs-cell-info {
-    font-style: 28px;
+.breadcrumbs-cell-info {    
     font-weight: bold;
     float: left;
     margin-right: 40px;
@@ -365,7 +364,7 @@ header.header .quick-access {
 
 }
 .breadcrumbs-login a {
-    font-style: 16px;
+    font-size: 16px;
     color: #323232;
     text-decoration: none;
     display: inline-block;
@@ -398,7 +397,7 @@ main {
 }
 main aside {
     float: left;
-    width: 400px;
+    width: 380px;
 }
 main aside .item-image {
     border: 1px solid #c8c8c8;
@@ -406,7 +405,7 @@ main aside .item-image {
     padding-bottom: 8px;
 }
 main aside .item-image .slider-screen img {
-    
+    width: 100%;
 }
 main aside .item-image .slider-nav .slick-slide {
     text-align: center;
@@ -468,7 +467,7 @@ main aside .item-image .slider-nav .slick-current {
     
 }
 main aside .services {
-    margin: 22px 0 50px 0;
+    margin: 37px 0 73px 0;
     overflow: hidden;
 }
 main aside .services .compare {
@@ -513,7 +512,7 @@ main aside .degree-brilliance .title span::after {
     top: 1px;
 }
 main aside .degree-brilliance .slider {
-    width: 263px;
+    width: 240px;
     text-align: right;
     display: table-cell;
     text-align: right;
@@ -523,7 +522,7 @@ main aside .degree-brilliance .slider .ui-state-disabled {
     opacity: 1;
 }
 #degree-brilliance-slider {
-    width: 263px;
+    width: 240px;
     height: 20px;
     background: transparent url('../img/bg-degree--brilliance.png') no-repeat center;
     position: relative;
@@ -581,7 +580,7 @@ main aside .resistance-washing .title span::after {
     top: 1px;
 }
 main aside .resistance-washing .slider {
-    width: 244px;
+    width: 220px;
     text-align: right;
     display: table-cell;
     text-align: right;
@@ -644,7 +643,7 @@ main aside .resistance-washing .slider ul li:nth-child(5)::before {
     border-radius: 0 5px 5px 0;
 }
 main article {
-    width: 780px;
+    width: 734px;
     float: right;
 }
 main article .discount {
@@ -671,7 +670,7 @@ main article .price-block .price b {
     font-weight: 800;
 }
 main article .price-block .calc-block {
-    width: 380px;
+    width: 330px;
     display: table-cell;
     vertical-align: middle;
 }
@@ -788,13 +787,13 @@ main article .item-description .learn-more {
 main article .ordering-block {
     display: table;
     width: 100%;
-    margin-bottom: 75px;
+    margin-bottom: 68px;
 }
 main article .ordering-block .selects {
     display: table-cell;
     vertical-align: middle;
     border: 1px solid #c8c8c8;
-    padding: 23px 36px 30px 37px;
+    padding: 20px 33px 30px 33px;
 }
 main article .ordering-block.saving .selects {
     border-right: none;
@@ -811,7 +810,7 @@ main article .ordering-block .selects .label {
     display: block;
     font: 18px/1 PTSans-Narrow;
     color: #969696;
-    margin-bottom: 14px;
+    margin-bottom: 13px;
 }
 main article .ordering-block .selects .select {
     position: relative;
@@ -880,9 +879,9 @@ main article .ordering-block .selects .color-select .select .color .color-previe
     background-size: 100% 100%;    
 }
 main article .ordering-block .selects .color-select .select .value {
-    height: 50px;
+    height: 48px;
     border: 1px solid #acacac;
-    font: 24px/48px PTSans-Narrow;
+    font: 24px/46px PTSans-Narrow;
     color: #000;
     padding: 0 34px 0 50px;
     overflow: hidden;
@@ -912,11 +911,11 @@ main article .ordering-block .selects .volume-select .select .color {
     margin-top: -15px;
 }
 main article .ordering-block .selects .volume-select .select .value {
-    height: 50px;
+    height: 48px;
     border: 1px solid #acacac;
     box-sizing: border-box;
     position: relative;
-    font: 24px/48px PTSans-Narrow;
+    font: 24px/46px PTSans-Narrow;
     color: #000;
     padding: 0 34px 0 27px;
     overflow: hidden;
@@ -929,7 +928,7 @@ main article .ordering-block .selects .select .select-options {
     max-height: 201px;
     border: 1px solid #acacac;
     background-color: #fff;
-    top: 49px;
+    top: 47px;
     box-sizing: border-box;
     overflow: hidden;
     display: none;
@@ -954,8 +953,8 @@ main article .ordering-block .selects .select #color-options {
     padding: 12px 0 0 12px;   
 }
 main article .ordering-block .selects .select #color-options .options li {
-    width: 64px;
-    height: 63px;
+    width: 61px;
+    height: 60px;
     float: left;
     margin: 0 12px 15px 0;
     cursor: pointer;
@@ -965,8 +964,8 @@ main article .ordering-block .selects .select #color-options .options li.current
     outline: 4px solid #969696;
 }
 main article .ordering-block .selects .select #color-options .options li img {
-    width: 64px;
-    height: 63px;
+    width: 61px;
+    height: 60px;
 }
 main article .ordering-block .selects .select #volume-options .options li {
     height: 50px;    
@@ -991,7 +990,7 @@ main article .ordering-block .selects .amount-select {
     float: right;
 }
 main article .ordering-block .selects .input {
-    height: 50px;
+    height: 48px;
     border: 1px solid #acacac;
     box-sizing: border-box;
     position: relative;
@@ -1003,7 +1002,7 @@ main article .ordering-block .selects .input input {
     background: none;
     width: 53px;
     height: 100%;
-    font: 24px/48px PTSans-Narrow;
+    font: 24px/46px PTSans-Narrow;
     color: #000;
     text-align: center;
 }
@@ -1078,8 +1077,8 @@ main article .ordering-block .selects .total-block .add-button {
     float: right;
     border: none;
     background: none;
-    width: 243px;
-    height: 60px;
+    width: 47%;
+    height: 57px;
     background-color: #cc0000;
     color: #fff;
     font: 24px/1 PTSans-Narrow;
@@ -1097,10 +1096,10 @@ main article .ordering-block .selects .volume-select {
 
 main article .ordering-block .saving {    
     vertical-align: middle;
-    width: 190px;
+    width: 180px;
     border: 1px dashed #c8c8c8;
-    background: transparent url('../img/bg-saving.png') no-repeat center 23px;
-    padding: 53px 20px 0px 20px;
+    background: transparent url('../img/bg-saving.png') no-repeat center 20px;
+    padding: 40px 15px 0px 15px;
     text-align: center;
     box-sizing: border-box;
     display: none;
@@ -1111,19 +1110,19 @@ main article .ordering-block.saving .saving {
 main article .ordering-block .saving p {
     font: 18px/22px PTSans-Narrow;
     color: #646464;
-    margin: 0 0 25px 0;
+    margin: 0 0 19px 0;
 }
 main article .ordering-block .saving span {
     display: inline-block;
-    font: 18px/28px PTSans-Narrow;
-    width: 128px;
-    height: 30px;
+    font: 18px/26px PTSans-Narrow;
+    width: 120px;
+    height: 28px;
     box-sizing: border-box;
     border: 1px solid #646464;
     cursor: pointer;
 }
 main article .alsobuy-block {
-    margin-bottom: 68px;
+    margin-bottom: 80px;
 }
 main article .alsobuy-block .title {
     font: 18px/26px PTSans-Narrow;
@@ -1139,8 +1138,8 @@ main article .alsobuy-block .alsobuy-slider li {
     text-align: center;
 }
 main article .alsobuy-block .alsobuy-slider .item {        
-    width: 170px;    
-    height: 200px;
+    width: 160px;    
+    height: 190px;
     box-sizing: border-box;
     border: 1px solid #d7d7d7;
     margin: auto;
@@ -1160,7 +1159,8 @@ main article .alsobuy-block .alsobuy-slider li .img {
     color: #969696;
     text-align: center;
     padding: 0 10px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
+    margin-top: -8px;
  }
  main article .alsobuy-block .alsobuy-slider li .name p {
     text-transform: uppercase;
@@ -1215,7 +1215,7 @@ main article .alsobuy-block .alsobuy-slider li .img {
 
 
 main aside .pdfs {
-    padding-top: 88px;
+    padding-top: 86px;
     margin-bottom: 60px;
 }
 main aside .pdfs .file {

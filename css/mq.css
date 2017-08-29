@@ -1,0 +1,106 @@
+@media screen and (max-width: 1280px) {
+   .wrapper {
+      min-width: 1007px;
+   }
+   .breadcrumbs-cell-info {
+      display: none;
+   }
+   .breadcrumbs-login {
+      overflow: hidden;
+      float: right;
+   }
+   .ink-grid {
+      max-width: 940px;
+      min-width: 940px;
+   }
+   .page-title h1 {
+      font: bold 40px/1 PTSans-Narrow;
+   }
+   .page-title {
+      padding: 42px 0 56px 0;
+   }
+   main article {
+      width: 510px;
+   }
+   main article .price-block .basket {
+      position: absolute;
+      right: 0;
+   }
+   main article .price-block .basket a {
+      top: -33px;
+   }
+   main article .price-block .calc-block {
+      width: 225px;      
+   }
+   main article .price-block .calc-block .calc-text {
+      letter-spacing: -1px;
+   }
+   main article .price-block .calc-block .calc-text span {
+      margin-bottom: 5px;
+   }
+   .breadcrumbs-cell.left a {
+      letter-spacing: -1px;
+   }
+   #volume-calculator .area-block {
+      width: 111px;
+      margin-right: 38px;
+   }
+   #volume-calculator {
+      width: 540px;
+      box-sizing: border-box;
+      padding: 15px 45px 21px 35px;
+      top: 25px;
+   }
+   #volume-calculator .label {
+      font-style: 16px;
+   }
+   #volume-calculator .input {
+      height: 44px;
+   }
+   #volume-calculator .layers-block {
+      width: 65px;
+      margin-right: 45px;
+   }
+   #volume-calculator .equally-block {
+      background-size: 28px auto;
+      height: 66px;
+      padding-left: 44px;
+      font: 40px/93px PTSans-Narrow;           
+   }
+   #volume-calculator .result-block {
+      width: 115px;
+   }
+   #volume-calculator .close {
+      width: 13px;
+      height: 13px;
+   }
+   main article .ordering-block {
+      display: block;
+   }
+   main article .ordering-block .selects {
+      display: block;
+       border-right: 1px solid #c8c8c8!important;
+       border-bottom: none;
+   }
+   main article .ordering-block.saving .saving {
+      display: block;
+   }
+   main article .ordering-block .saving {
+      width: 100%;
+      text-align: left;
+      padding: 20px 15px 20px 108px;
+      overflow: hidden;
+      background: transparent url(../img/bg-saving.png) no-repeat 28px center;
+   }
+   main article .ordering-block .saving p {
+      width: 210px;
+      float: left;
+      margin: 0 10px 0 0;
+   }
+   main article .ordering-block .saving span {
+      display: block;
+      float: right;
+      text-align: center;
+      margin-top: 8px;
+   }
+}
