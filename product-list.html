@@ -1,0 +1,165 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/core.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">        
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/mq.css">
+        <script src="js/vendor/jquery-1.12.1.min.js"></script>
+        <script src="js/vendor/slick.min.js"></script>
+        <script src="js/vendor/iscroll.js"></script>
+        <script src="js/vendor/jquery-ui.min.js"></script>
+
+        <link rel="icon" href="https://kompozit.ua/media/favicon/default/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="https://kompozit.ua/media/favicon/default/favicon.ico" type="image/x-icon">
+
+        <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="wrapper product-list">
+            <div class="header-container">
+                <header class="header ink-grid">
+                    <div class="column-group">
+                        <div class="large-push-left content-left">
+                            <a href="https://kompozit.ua/" title="kompozit" class="logo large-push-left"><strong>kompozit</strong>
+                                <img src="img/logo1.png" alt="kompozit">
+                            </a>                
+                        </div>
+                        <div>
+                            <img class="logo-part" src="img/logo_part.png">
+                        </div>
+                        <div class="quick-access large-push-right content-right">
+                            <div class="large-push-right" id="header-right-menu">
+                                <div id="header-right-menu-icon"><img src="img/ico-menu.png"></div>
+                                <div id="header-right-menu-container" style="display: none;">
+                                    <ul>
+                                        <li><a title="Партнерам" href="/partners/">Партнерам</a></li>
+                                        <li><a href="/store/certificate/">Сертификаты</a></li>
+                                        <li><a href="/store/location/">Где купить</a></li>
+                                        <li><a title="Контакты" href="/contacts/">Контакты</a></li>
+                                        <li><a href="/customer/account/" target="_self">Личный кабинет</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="/store/expert/">Ваш эксперт</a></li>
+                                        <li><a href="/store/video/">Видео</a></li>
+                                        <li><a href="/club-kompozit/">Клуб Kompozit</a></li>
+                                        <li><a href="/store/">Интернет-магазин</a></li>
+                                        <li><a href="/store/actions/">Акции</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="/store/projects/">Наши проекты</a></li>
+                                        <li><a href="/store/manual/">Руководство по покраске</a></li>
+                                        <li><a href="/service/">Услуги</a></li>
+                                        <li><a href="/store/events/">Новости</a></li>
+                                        <li><a href="/store/info/">Оплата и Доставка</a></li>
+                                    </ul>                    </div>
+                                </div>
+                                <div class="quick-access-left large-push-right">
+                                    <div class="form-language">
+                                        <a href="https://kompozit.ua/kraski/kraska-inter-ernaja-interior-3.html?___store=ru" class="selected">Ru</a>
+                                        <a target="_blank" href="http://kompozit.de/">En</a>
+                                    </div>
+                                    <ul class="top-links" id="top-links">
+                                        <li><a href="/partners/">Партнерам</a></li>
+                                        <li><a href="/store/certificate/">Сертификаты</a></li>
+                                        <li><a href="/store/location/">Где купить</a></li>
+                                        <li><a href="/contacts/">Контакты</a></li>
+                                    </ul>
+                                    <div class="large-push-right"><form class="search" id="search_mini_form" action="https://kompozit.ua/catalogsearch/result/" method="get">
+                                        <input id="submit" value="" type="submit" title="Поиск">
+                                        <label for="submit" class="submit"></label>
+                                        <!-- trigger button and input -->
+                                        <a href="javascript: void(0)" class="icon"></a>
+                                        <input id="search" type="text" name="q" class="input-text" maxlength="128" placeholder="Search">
+                                    </form>
+                                    <script type="text/javascript">
+
+                                        jQuery(".icon").click(function() {
+                                            var icon = jQuery(this),
+                                            input = icon.parent().find("#search"),
+                                            submit = icon.parent().find(".submit"),
+                                            is_submit_clicked = false;
+                                            // Now, we need to hide the icon too
+                                            icon.fadeOut();
+                                            // Animate the input field
+                                            icon.css({"right": "8px"});
+                                            submit.css({"right": "8px"});
+                                            input.css({
+                                                "width": "125px",
+                                                "opacity": 1
+                                            });
+                                            input.focus();
+                                            submit.mousedown(function() {
+                                                is_submit_clicked = true;
+                                            });
+                                            
+                                            // Looks great, but what about hiding the input when it loses focus and doesnt contain any value? Lets do that too
+                                            input.blur(function() {
+                                                if(!input.val() && !is_submit_clicked) {
+                                                    input.css({
+                                                        "width": "0",
+                                                        "opacity": 0
+                                                    }, 200); 
+                                                    submit.css({"right": "1px"});      
+                                                    // Get the icon back
+                                                    icon.fadeIn();
+                                                    icon.css({"right": "1px"}); 
+                                                };
+                                            });
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <div class="main-container">
+                <div class="breadcrumbs-wrapper">
+                    <div class="breadcrumbs ink-grid">
+                        <div class="breadcrumbs-table">
+                            <div class="breadcrumbs-cell left">                    
+                                <a href="https://kompozit.ua/" title="Перейти на главную страницу">Главная</a>                    
+                                <a href="https://kompozit.ua/store/" title="Интернет-магазин">Интернет-магазин</a>                    
+                                <a href="https://kompozit.ua/kraski.html" title="">Краски</a>                    
+                                <span>Краска интерьерная INTERIOR 3</span>
+                            </div>
+                            <div class="breadcrumbs-cell right">
+                                <div  class="breadcrumbs-cell-info">Отдел продаж: (067) 232-02-22</div>
+                                <div class="breadcrumbs-login">
+                                    <a href="https://kompozit.ua/customer/account/login/">Вход</a>
+                                    <i></i>
+                                    <a href="https://kompozit.ua/customer/account/login/">Регистрация</a>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="page-title ink-grid">
+                    <h1>Товары</h1>
+                </div>
+                <main>
+                    <div class="ink-grid clear-both">
+                        <aside>LEFT COL</aside>
+                        <article>
+                            <section class="top-filter-block"></section>
+                        </article>
+                    </div>
+                </main>                
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>

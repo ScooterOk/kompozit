@@ -19,23 +19,23 @@
    .page-title {
       padding: 42px 0 56px 0;
    }
-   main article {
+   .product-description main article {
       width: 510px;
    }
-   main article .price-block .basket {
+   .product-description main article .price-block .basket {
       position: absolute;
       right: 0;
    }
-   main article .price-block .basket a {
+   .product-description main article .price-block .basket a {
       top: -33px;
    }
-   main article .price-block .calc-block {
+   .product-description main article .price-block .calc-block {
       width: 225px;      
    }
-   main article .price-block .calc-block .calc-text {
+   .product-description main article .price-block .calc-block .calc-text {
       letter-spacing: -1px;
    }
-   main article .price-block .calc-block .calc-text span {
+   .product-description main article .price-block .calc-block .calc-text span {
       margin-bottom: 5px;
    }
    .breadcrumbs-cell.left a {
@@ -74,164 +74,164 @@
       width: 13px;
       height: 13px;
    }
-   main article .ordering-block {
+   .product-description main article .ordering-block {
       display: block;
       margin-bottom: 75px;
    }
-   main article .ordering-block .selects {
+   .product-description main article .ordering-block .selects {
        display: block;
        border-right: 1px solid #c8c8c8!important;       
        padding: 20px 33px 22px 28px;
    }
-   main article .ordering-block.saving .selects {
+   .product-description main article .ordering-block.saving .selects {
       border-bottom: none;
    }
-   main article .ordering-block.saving .saving {
+   .product-description main article .ordering-block.saving .saving {
       display: block;      
    }
-   main article .ordering-block .saving {
+   .product-description main article .ordering-block .saving {
       width: 100%;
       text-align: left;
       padding: 16px 15px 17px 108px;
       overflow: hidden;
       background: transparent url(../img/bg-saving.png) no-repeat 28px center;
    }
-   main article .ordering-block .saving p {
+   .product-description main article .ordering-block .saving p {
       width: 210px;
       float: left;
       margin: 0 10px 0 0;
    }
-   main article .ordering-block .saving span {
+   .product-description main article .ordering-block .saving span {
       display: block;
       float: right;
       text-align: center;
       margin-top: 8px;
    }
-   main article .ordering-block .selects .color-select .select .value {
+   .product-description main article .ordering-block .selects .color-select .select .value {
       height: 43px;
       font: 20px/43px PTSans-Narrow;
    }
-   main article .ordering-block .selects .color-select .select .color {
+   .product-description main article .ordering-block .selects .color-select .select .color {
       width: 28px;
       height: 28px;
       margin-top: -14px;
    }
-   main article .ordering-block .selects .select .select-options {
+   .product-description main article .ordering-block .selects .select .select-options {
       top: 42px;
    }
-   main article .ordering-block .selects .select #color-options .options li {
+   .product-description main article .ordering-block .selects .select #color-options .options li {
       width: 55px;
       height: 55px;
       margin-right: 10px;
    }
-   main article .ordering-block .selects .select #color-options .options li img {
+   .product-description main article .ordering-block .selects .select #color-options .options li img {
       width: 55px;
       height: 55px;
    }
-   main article .ordering-block .selects .label {
+   .product-description main article .ordering-block .selects .label {
       font: 16px/1 PTSans-Narrow;
    }
-   main article .ordering-block .selects .volume-select .select .value {
+   .product-description main article .ordering-block .selects .volume-select .select .value {
       height: 43px;
       font: 20px/43px PTSans-Narrow;
    }
-   main article .ordering-block .selects .select #volume-options .options li {
+   .product-description main article .ordering-block .selects .select #volume-options .options li {
       height: 43px;
       font: 20px/43px PTSans-Narrow;
    }
-   main article .ordering-block .selects .input {
+   .product-description main article .ordering-block .selects .input {
       height: 43px;
       font: 20px/43px PTSans-Narrow;  
    }
-   main article .ordering-block .selects .input input {
+   .product-description main article .ordering-block .selects .input input {
        width: 41px;
        font: 20px/43px PTSans-Narrow;
    }
-   main article .ordering-block .selects .total-block .add-button {
+   .product-description main article .ordering-block .selects .total-block .add-button {
       width: 210px;
       height: 51px;
       font: 20px/1 PTSans-Narrow;
    }
-   main article .ordering-block .selects .total-block .total {
+   .product-description main article .ordering-block .selects .total-block .total {
       width: 213px;
    }
-   main article .ordering-block .selects .total-block {
+   .product-description main article .ordering-block .selects .total-block {
       padding-top: 27px;
    }
-   main article .ordering-block .selects .total-block .total .summ {      
+   .product-description main article .ordering-block .selects .total-block .total .summ {      
       margin-bottom: 3px;
    }
-   main article .alsobuy-block {
+   .product-description main article .alsobuy-block {
       margin-bottom: 60px;
    }
-   main article .alsobuy-block .alsobuy-slider .item {
+   .product-description main article .alsobuy-block .alsobuy-slider .item {
       width: 160px;
       height: 190px;
       box-sizing: border-box;
       border: 1px solid #d7d7d7;
       margin: auto;
    }
-   main article .tabs-wraper .tabs {
+   .product-description main article .tabs-wraper .tabs {
       margin: 0 0 33px 0;
    }
-   main article .tabs-wraper .tabs li {
+   .product-description main article .tabs-wraper .tabs li {
       font: 16px/44px PTSans-Narrow;
       height: 44px;      
       padding: 0px 5px;
       box-sizing: border-box;
    }
-   main article .tabs-wraper .tabs li[data-target="specifications"] {
+   .product-description main article .tabs-wraper .tabs li[data-target="specifications"] {
       font: 16px/1 PTSans-Narrow;
       height: 44px;      
       padding: 5px 5px;
       box-sizing: border-box;
    }   
-   main article .tabs-wraper > .content .description h3 {
+   .product-description main article .tabs-wraper > .content .description h3 {
       font: 20px/1 PTSans-Narrow;
    }
-   main article .tabs-wraper > .content .description .text {
+   .product-description main article .tabs-wraper > .content .description .text {
       font: 18px/24px PTSans-Narrow;
    }
-   main article .tabs-wraper > .content .specifications .name {
+   .product-description main article .tabs-wraper > .content .specifications .name {
       width: 190px;
       font: 16px/24px PTSans-Narrow;
    }
-   main article .tabs-wraper > .content .specifications .text {
+   .product-description main article .tabs-wraper > .content .specifications .text {
       width: 300px;
       font: 16px/24px PTSans-Narrow;
    }
-   main article .tabs-wraper > .content li .block {
+   .product-description main article .tabs-wraper > .content li .block {
       margin-bottom: 15px;
    }
-   main article .tabs-wraper > .content .reviews .item .name {
+   .product-description main article .tabs-wraper > .content .reviews .item .name {
       font: 18px/1 PTSans-Narrow;
    }
-   main article .tabs-wraper > .content .reviews .item .message {
+   .product-description main article .tabs-wraper > .content .reviews .item .message {
       font: 18px/1 PTSans-Narrow;  
    }
-   main article .tabs-wraper > .content .reviews .form-block .title {
+   .product-description main article .tabs-wraper > .content .reviews .form-block .title {
       font: 18px/1 PTSans-Narrow;
        margin-bottom: 38px;
    }
-   main article .tabs-wraper > .content .reviews .form-block .form .label {
+   .product-description main article .tabs-wraper > .content .reviews .form-block .form .label {
       font: 18px/1 PTSans-Narrow;
       width: 120px;
    }
-   main article .tabs-wraper > .content .reviews {
+   .product-description main article .tabs-wraper > .content .reviews {
       padding-top: 7px;
    }
-   main article .tabs-wraper > .content .reviews .form-block .form {
+   .product-description main article .tabs-wraper > .content .reviews .form-block .form {
       width: 430px;
    }
-   main article .tabs-wraper > .content .reviews .form-block .form .input {
+   .product-description main article .tabs-wraper > .content .reviews .form-block .form .input {
       width: 300px;
    }
-   main article .tabs-wraper > .content .reviews .form-block .form button {
+   .product-description main article .tabs-wraper > .content .reviews .form-block .form button {
       margin-right: 0;
       width: 300px;
    }
-   main article .tabs-wraper > .content .reviews .form-block .form .input input, 
-   main article .tabs-wraper > .content .reviews .form-block .form .input textarea {
+   .product-description main article .tabs-wraper > .content .reviews .form-block .form .input input, 
+   .product-description main article .tabs-wraper > .content .reviews .form-block .form .input textarea {
       font: 18px/24px PTSans-Narrow;
    }
 }

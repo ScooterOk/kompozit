@@ -392,31 +392,31 @@ header.header .quick-access {
     color: #323232;
 }
 
-main {
+.product-description main {
     
 }
-main aside {
+.product-description main aside {
     float: left;
     width: 380px;
 }
-main aside .item-image {
+.product-description main aside .item-image {
     border: 1px solid #c8c8c8;
     box-sizing: border-box;
     padding-bottom: 8px;
 }
-main aside .item-image .slider-screen img {
+.product-description main aside .item-image .slider-screen img {
     width: 100%;
 }
-main aside .item-image .slider-nav .slick-slide {
+.product-description main aside .item-image .slider-nav .slick-slide {
     text-align: center;
 }
-main aside .item-image .slider-nav {
+.product-description main aside .item-image .slider-nav {
     padding: 0 8px;
 }
-main aside .item-image .slider-nav .slick-arrow.slick-disabled {
+.product-description main aside .item-image .slider-nav .slick-arrow.slick-disabled {
     display: none!important;
 }
-main aside .item-image .slider-nav .slick-prev {
+.product-description main aside .item-image .slider-nav .slick-prev {
     border: none;
     outline: none;
     font-size: 0;
@@ -431,10 +431,10 @@ main aside .item-image .slider-nav .slick-prev {
     opacity: 0.5;
     transition: opacity 400ms ease;
 }
-main aside .item-image .slider-nav .slick-prev:hover {
+.product-description main aside .item-image .slider-nav .slick-prev:hover {
     opacity: 1;   
 }
-main aside .item-image .slider-nav .slick-next {
+.product-description main aside .item-image .slider-nav .slick-next {
     border: none;
     outline: none;
     font-size: 0;
@@ -449,28 +449,28 @@ main aside .item-image .slider-nav .slick-next {
     opacity: 0.5;
     transition: opacity 400ms ease;
 }
-main aside .item-image .slider-nav .slick-next:hover {
+.product-description main aside .item-image .slider-nav .slick-next:hover {
     opacity: 1;   
 }
-main aside .item-image .slider-nav img {
+.product-description main aside .item-image .slider-nav img {
     width: 86px;
     height: 86px;
     margin: auto;
 }
-main aside .item-image .slider-nav .slick-slide {
+.product-description main aside .item-image .slider-nav .slick-slide {
     border: 1px solid transparent;
     box-sizing: border-box;
     outline: none;
 }
-main aside .item-image .slider-nav .slick-current {
+.product-description main aside .item-image .slider-nav .slick-current {
     border: 1px solid #c8c8c8;
     
 }
-main aside .services {
+.product-description main aside .services {
     margin: 37px 0 73px 0;
     overflow: hidden;
 }
-main aside .services .compare {
+.product-description main aside .services .compare {
     float: left;
     display: inline-block;
     padding-left: 25px;
@@ -478,7 +478,7 @@ main aside .services .compare {
     color: #969696;
     background: url('../img/ico-compare.png') no-repeat left center;
 }
-main aside .services .w-buy {
+.product-description main aside .services .w-buy {
     float: right;
     display: inline-block;
     padding-left: 25px;
@@ -486,22 +486,22 @@ main aside .services .w-buy {
     color: #969696;
     background: url('../img/ico-w-buy.png') no-repeat left center;
 }
-main aside .degree-brilliance {
+.product-description main aside .degree-brilliance {
     display: table;
     width: 100%;
     margin-bottom: 50px;
 }
-main aside .degree-brilliance .title {
+.product-description main aside .degree-brilliance .title {
     display: table-cell;
     vertical-align: middle;
 }
-main aside .degree-brilliance .title span {
+.product-description main aside .degree-brilliance .title span {
     font: 18px/1 PTSans-Narrow;
     color: #969696;
     display: inline-block;
     position: relative;
 }
-main aside .degree-brilliance .title span::after {
+.product-description main aside .degree-brilliance .title span::after {
     content: "";
     display: block;
     width: 16px;
@@ -511,14 +511,14 @@ main aside .degree-brilliance .title span::after {
     right: -20px;
     top: 1px;
 }
-main aside .degree-brilliance .slider {
+.product-description main aside .degree-brilliance .slider {
     width: 240px;
     text-align: right;
     display: table-cell;
     text-align: right;
     vertical-align: middle;
 }
-main aside .degree-brilliance .slider .ui-state-disabled {
+.product-description main aside .degree-brilliance .slider .ui-state-disabled {
     opacity: 1;
 }
 #degree-brilliance-slider {
@@ -554,22 +554,22 @@ main aside .degree-brilliance .slider .ui-state-disabled {
     left: 50%;
     margin-left: -5px;
 }
-main aside .resistance-washing {
+.product-description main aside .resistance-washing {
     display: table;
     width: 100%;
     margin-bottom: 70px;
 }
-main aside .resistance-washing .title {
+.product-description main aside .resistance-washing .title {
     display: table-cell;
     vertical-align: middle;
 }
-main aside .resistance-washing .title span {
+.product-description main aside .resistance-washing .title span {
     font: 18px/1 PTSans-Narrow;
     color: #969696;
     display: inline-block;
     position: relative;
 }
-main aside .resistance-washing .title span::after {
+.product-description main aside .resistance-washing .title span::after {
     content: "";
     display: block;
     width: 16px;
@@ -579,19 +579,19 @@ main aside .resistance-washing .title span::after {
     right: -20px;
     top: 1px;
 }
-main aside .resistance-washing .slider {
+.product-description main aside .resistance-washing .slider {
     width: 220px;
     text-align: right;
     display: table-cell;
     text-align: right;
     vertical-align: middle;
 }
-main aside .resistance-washing .slider ul {
+.product-description main aside .resistance-washing .slider ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-main aside .resistance-washing .slider ul li {
+.product-description main aside .resistance-washing .slider ul li {
     width: 20%;
     float: left;
     font: 14px/1 PTSans-Narrow;
@@ -600,7 +600,7 @@ main aside .resistance-washing .slider ul li {
     text-align: center;
     position: relative;
 }
-main aside .resistance-washing .slider ul li::before {
+.product-description main aside .resistance-washing .slider ul li::before {
     content: "";
     display: block;
     width: 100%;
@@ -610,7 +610,7 @@ main aside .resistance-washing .slider ul li::before {
     top: 0;
     z-index: 1;
 }
-main aside .resistance-washing .slider ul li.current::after {
+.product-description main aside .resistance-washing .slider ul li.current::after {
     content: "";
     display: block;
     width: 18px;
@@ -625,28 +625,28 @@ main aside .resistance-washing .slider ul li.current::after {
     box-sizing: border-box;
     border: 4px solid #fff;      
 }
-main aside .resistance-washing .slider ul li:nth-child(1)::before {
+.product-description main aside .resistance-washing .slider ul li:nth-child(1)::before {
     background-color: #ffde01;
     border-radius: 5px 0 0 5px;
 }
-main aside .resistance-washing .slider ul li:nth-child(2)::before {
+.product-description main aside .resistance-washing .slider ul li:nth-child(2)::before {
     background-color: #c0e12b
 }
-main aside .resistance-washing .slider ul li:nth-child(3)::before {
+.product-description main aside .resistance-washing .slider ul li:nth-child(3)::before {
     background-color: #96d112;
 }
-main aside .resistance-washing .slider ul li:nth-child(4)::before {
+.product-description main aside .resistance-washing .slider ul li:nth-child(4)::before {
     background-color: #5dbc33;
 }
-main aside .resistance-washing .slider ul li:nth-child(5)::before {
+.product-description main aside .resistance-washing .slider ul li:nth-child(5)::before {
     background-color: #39a007;
     border-radius: 0 5px 5px 0;
 }
-main article {
+.product-description main article {
     width: 734px;
     float: right;
 }
-main article .discount {
+.product-description main article .discount {
     height: 35px;
     font: 24px/1 PTSans-Narrow;
     color: #323232;
@@ -655,49 +655,49 @@ main article .discount {
     top: -3px;
     padding-left: 20px;
 }
-main article .price-block {
+.product-description main article .price-block {
     display: table;
     width: 100%;
 }
-main article .price-block .price {
+.product-description main article .price-block .price {
     display: table-cell;
     vertical-align: middle;
     font: 60px/1 PTSans-Narrow;
     color: #cc0000;
     padding-left: 20px;
 }
-main article .price-block .price b {
+.product-description main article .price-block .price b {
     font-weight: 800;
 }
-main article .price-block .calc-block {
+.product-description main article .price-block .calc-block {
     width: 330px;
     display: table-cell;
     vertical-align: middle;
 }
-main article .price-block .calc-block .calc-text {
+.product-description main article .price-block .calc-block .calc-text {
     height: 50px;
     padding-left: 53px;
     background: transparent url('../img/bg-calc-block.png') no-repeat left center;
     position: relative;
     top: 3px;
 }
-main article .price-block .calc-block .calc-text span {
+.product-description main article .price-block .calc-block .calc-text span {
     font: 20px/1 PTSans-Narrow;
     color: #969696;
     display: inline-block;
     margin-bottom: 7px;
 }
-main article .price-block .calc-block .calc-text a {
+.product-description main article .price-block .calc-block .calc-text a {
     font: 20px/1 PTSans-Narrow;
     color: #969696;
 }
-main article .price-block .basket {
+.product-description main article .price-block .basket {
     width: 76px;
     display: table-cell;
     vertical-align: middle;
     text-align: right;
 }
-main article .price-block .basket a {
+.product-description main article .price-block .basket a {
     display: block;
     width: 76px;
     height: 62px;
@@ -769,53 +769,53 @@ main article .price-block .basket a {
     box-sizing: border-box;
     padding: 0 15px;
 }
-main article .price-description {
+.product-description main article .price-description {
     font: 20px/1 PTSans-Narrow;
     padding-left: 20px;
     color: #323232;
     padding-top: 13px;
     position: relative; 
 }
-main article .item-description {
+.product-description main article .item-description {
     font: 20px/26px PTSans-Narrow;
     color: #646464;
     margin: 40px 0;
 }
-main article .item-description .learn-more {
+.product-description main article .item-description .learn-more {
     color: #00c1f5;
 }
-main article .ordering-block {
+.product-description main article .ordering-block {
     display: table;
     width: 100%;
     margin-bottom: 68px;
 }
-main article .ordering-block .selects {
+.product-description main article .ordering-block .selects {
     display: table-cell;
     vertical-align: middle;
     border: 1px solid #c8c8c8;
     padding: 20px 33px 30px 33px;
 }
-main article .ordering-block.saving .selects {
+.product-description main article .ordering-block.saving .selects {
     border-right: none;
 }
-main article .ordering-block .selects.saving {
+.product-description main article .ordering-block .selects.saving {
     border-right: none;
 }
-main article .ordering-block .selects .color-select {
+.product-description main article .ordering-block .selects .color-select {
     width: 48%;
     float: left;
     margin-right: 5%;
 }
-main article .ordering-block .selects .label {
+.product-description main article .ordering-block .selects .label {
     display: block;
     font: 18px/1 PTSans-Narrow;
     color: #969696;
     margin-bottom: 13px;
 }
-main article .ordering-block .selects .select {
+.product-description main article .ordering-block .selects .select {
     position: relative;
 }
-main article .ordering-block .selects .color-select .select::after {
+.product-description main article .ordering-block .selects .color-select .select::after {
     content: "";
     display: block;
     width: 0;
@@ -828,7 +828,7 @@ main article .ordering-block .selects .color-select .select::after {
     top: 50%;
     margin-top: -3px;
 }
-main article .ordering-block .selects .color-select .select .color {
+.product-description main article .ordering-block .selects .color-select .select .color {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -836,7 +836,7 @@ main article .ordering-block .selects .color-select .select .color {
     left: 8px;
     margin-top: -15px;
 }
-main article .ordering-block .selects .color-select .select .color .color-preview {
+.product-description main article .ordering-block .selects .color-select .select .color .color-preview {
     width: 112px;
     height: 112px;
     /*border: 6px solid #fff;*/
@@ -848,7 +848,7 @@ main article .ordering-block .selects .color-select .select .color .color-previe
     left: -134px;
     display: none;
 }
-main article .ordering-block .selects .color-select .select .color .color-preview::after {
+.product-description main article .ordering-block .selects .color-select .select .color .color-preview::after {
     content: "";
     display: block;
     width: 10px;
@@ -862,7 +862,7 @@ main article .ordering-block .selects .color-select .select .color .color-previe
     background-color: #fff;
     z-index: 1;
 }
-main article .ordering-block .selects .color-select .select .color .color-preview .color-preview-border {
+.product-description main article .ordering-block .selects .color-select .select .color .color-preview .color-preview-border {
     background-color: #fff;
     width: 100%;
     height: 100%;
@@ -871,14 +871,14 @@ main article .ordering-block .selects .color-select .select .color .color-previe
     padding: 6px;
     box-sizing: border-box;
 }
-main article .ordering-block .selects .color-select .select .color .color-preview .color-preview-border .color-preview-bg {
+.product-description main article .ordering-block .selects .color-select .select .color .color-preview .color-preview-border .color-preview-bg {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;    
 }
-main article .ordering-block .selects .color-select .select .value {
+.product-description main article .ordering-block .selects .color-select .select .value {
     height: 48px;
     border: 1px solid #acacac;
     font: 24px/46px PTSans-Narrow;
@@ -889,7 +889,7 @@ main article .ordering-block .selects .color-select .select .value {
     white-space: nowrap;
     box-sizing: border-box;
 }
-main article .ordering-block .selects .volume-select .select::after {
+.product-description main article .ordering-block .selects .volume-select .select::after {
     content: "";
     display: block;
     width: 0;
@@ -902,7 +902,7 @@ main article .ordering-block .selects .volume-select .select::after {
     top: 50%;
     margin-top: -3px;
 }
-main article .ordering-block .selects .volume-select .select .color {
+.product-description main article .ordering-block .selects .volume-select .select .color {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -910,7 +910,7 @@ main article .ordering-block .selects .volume-select .select .color {
     left: 8px;
     margin-top: -15px;
 }
-main article .ordering-block .selects .volume-select .select .value {
+.product-description main article .ordering-block .selects .volume-select .select .value {
     height: 48px;
     border: 1px solid #acacac;
     box-sizing: border-box;
@@ -922,7 +922,7 @@ main article .ordering-block .selects .volume-select .select .value {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-main article .ordering-block .selects .select .select-options {    
+.product-description main article .ordering-block .selects .select .select-options {    
     position: absolute;
     width: 100%;
     max-height: 201px;
@@ -933,15 +933,15 @@ main article .ordering-block .selects .select .select-options {
     overflow: hidden;
     display: none;
 }
-main article .ordering-block .selects .iScrollIndicator {
+.product-description main article .ordering-block .selects .iScrollIndicator {
     background-color: #969696!important;
 }
-main article .ordering-block .selects .select .select-options .options {
+.product-description main article .ordering-block .selects .select .select-options .options {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-main article .ordering-block .selects .select .select-options .options:after {
+.product-description main article .ordering-block .selects .select .select-options .options:after {
     content: "";
     width: 0;
     height: 0;
@@ -949,10 +949,10 @@ main article .ordering-block .selects .select .select-options .options:after {
     overflow: hidden;
     display: block;
 }
-main article .ordering-block .selects .select #color-options {
+.product-description main article .ordering-block .selects .select #color-options {
     padding: 12px 0 0 12px;   
 }
-main article .ordering-block .selects .select #color-options .options li {
+.product-description main article .ordering-block .selects .select #color-options .options li {
     width: 61px;
     height: 60px;
     float: left;
@@ -960,14 +960,14 @@ main article .ordering-block .selects .select #color-options .options li {
     cursor: pointer;
     position: relative;
 }
-main article .ordering-block .selects .select #color-options .options li.current {
+.product-description main article .ordering-block .selects .select #color-options .options li.current {
     outline: 4px solid #969696;
 }
-main article .ordering-block .selects .select #color-options .options li img {
+.product-description main article .ordering-block .selects .select #color-options .options li img {
     width: 61px;
     height: 60px;
 }
-main article .ordering-block .selects .select #volume-options .options li {
+.product-description main article .ordering-block .selects .select #volume-options .options li {
     height: 50px;    
     box-sizing: border-box;    
     font: 24px/48px PTSans-Narrow;
@@ -979,23 +979,23 @@ main article .ordering-block .selects .select #volume-options .options li {
     transition: background-color 200ms ease;
     cursor: pointer;
 }
-main article .ordering-block .selects .select #volume-options .options li.current {
+.product-description main article .ordering-block .selects .select #volume-options .options li.current {
     color: rgba(0, 0, 0, 0.3);
 }
-main article .ordering-block .selects .select #volume-options .options li:hover {
+.product-description main article .ordering-block .selects .select #volume-options .options li:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
-main article .ordering-block .selects .amount-select {
+.product-description main article .ordering-block .selects .amount-select {
     width: 17%;
     float: right;
 }
-main article .ordering-block .selects .input {
+.product-description main article .ordering-block .selects .input {
     height: 48px;
     border: 1px solid #acacac;
     box-sizing: border-box;
     position: relative;
 }
-main article .ordering-block .selects .input input {
+.product-description main article .ordering-block .selects .input input {
     display: block;
     border: none;
     outline: none;
@@ -1006,7 +1006,7 @@ main article .ordering-block .selects .input input {
     color: #000;
     text-align: center;
 }
-main article .ordering-block .selects .input i {
+.product-description main article .ordering-block .selects .input i {
     display: block;
     width: 33px;
     height: 24px;
@@ -1017,10 +1017,10 @@ main article .ordering-block .selects .input i {
     right: 0;
     cursor: pointer;
 }
-main article .ordering-block .selects .input i.plus {
+.product-description main article .ordering-block .selects .input i.plus {
     top: 0;
 }
-main article .ordering-block .selects .input i.plus::after {
+.product-description main article .ordering-block .selects .input i.plus::after {
     content: "";
     display: block;
     width: 0;
@@ -1034,11 +1034,11 @@ main article .ordering-block .selects .input i.plus::after {
     margin-top: -3px;
     transform: rotate(180deg);
 }
-main article .ordering-block .selects .input i.minus {
+.product-description main article .ordering-block .selects .input i.minus {
     bottom: 0;
     border-bottom: none;
 }
-main article .ordering-block .selects .input i.minus::after {
+.product-description main article .ordering-block .selects .input i.minus::after {
     content: "";
     display: block;
     width: 0;
@@ -1051,28 +1051,28 @@ main article .ordering-block .selects .input i.minus::after {
     top: 50%;
     margin-top: -3px;
 }
-main article .ordering-block .selects .total-block {
+.product-description main article .ordering-block .selects .total-block {
     clear: both;
     padding-top: 30px;
 }
-main article .ordering-block .selects .total-block .total {
+.product-description main article .ordering-block .selects .total-block .total {
     width: 247px;
     float: left;
     text-align: center;
 }
-main article .ordering-block .selects .total-block .total .summ {
+.product-description main article .ordering-block .selects .total-block .total .summ {
     font: 36px/1 PTSans-Narrow;
     color: #cc0000;
     margin-bottom: 10px;
 }
-main article .ordering-block .selects .total-block .total .summ b {
+.product-description main article .ordering-block .selects .total-block .total .summ b {
     font-weight: 800;
 }
-main article .ordering-block .selects .total-block .total span {
+.product-description main article .ordering-block .selects .total-block .total span {
     font: 16px/1 PTSans-Narrow;
     color: #323232;
 }
-main article .ordering-block .selects .total-block .add-button {
+.product-description main article .ordering-block .selects .total-block .add-button {
     display: block;
     float: right;
     border: none;
@@ -1085,7 +1085,7 @@ main article .ordering-block .selects .total-block .add-button {
     text-align: center;
     cursor: pointer;
 }
-main article .ordering-block .selects .volume-select {
+.product-description main article .ordering-block .selects .volume-select {
     width: 25%;
     float: left;
     margin-right: 5%;
@@ -1094,7 +1094,7 @@ main article .ordering-block .selects .volume-select {
 
 
 
-main article .ordering-block .saving {    
+.product-description main article .ordering-block .saving {    
     vertical-align: middle;
     width: 180px;
     border: 1px dashed #c8c8c8;
@@ -1104,15 +1104,15 @@ main article .ordering-block .saving {
     box-sizing: border-box;
     display: none;
 }
-main article .ordering-block.saving .saving {
+.product-description main article .ordering-block.saving .saving {
     display: table-cell;
 }
-main article .ordering-block .saving p {
+.product-description main article .ordering-block .saving p {
     font: 18px/22px PTSans-Narrow;
     color: #646464;
     margin: 0 0 19px 0;
 }
-main article .ordering-block .saving span {
+.product-description main article .ordering-block .saving span {
     display: inline-block;
     font: 18px/26px PTSans-Narrow;
     width: 120px;
@@ -1121,40 +1121,40 @@ main article .ordering-block .saving span {
     border: 1px solid #646464;
     cursor: pointer;
 }
-main article .alsobuy-block {
+.product-description main article .alsobuy-block {
     margin-bottom: 80px;
 }
-main article .alsobuy-block .title {
+.product-description main article .alsobuy-block .title {
     font: 18px/26px PTSans-Narrow;
     color: #010101;
     margin-bottom: 20px;
 }
-main article .alsobuy-block .alsobuy-slider {
+.product-description main article .alsobuy-block .alsobuy-slider {
     list-style: none;
     margin: 0;
     padding: 0;    
 }
-main article .alsobuy-block .alsobuy-slider li {
+.product-description main article .alsobuy-block .alsobuy-slider li {
     text-align: center;
 }
-main article .alsobuy-block .alsobuy-slider .item {        
+.product-description main article .alsobuy-block .alsobuy-slider .item {        
     width: 160px;    
     height: 190px;
     box-sizing: border-box;
     border: 1px solid #d7d7d7;
     margin: auto;
 }
-main article .alsobuy-block .alsobuy-slider .item a {
+.product-description main article .alsobuy-block .alsobuy-slider .item a {
     text-decoration: none;
 }
-main article .alsobuy-block .alsobuy-slider li .img {
+.product-description main article .alsobuy-block .alsobuy-slider li .img {
     text-align: center;
     height: 110px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto 90px;
  }
- main article .alsobuy-block .alsobuy-slider li .name {
+ .product-description main article .alsobuy-block .alsobuy-slider li .name {
     font: 18px/22px PTSans-Narrow;
     color: #969696;
     text-align: center;
@@ -1162,21 +1162,21 @@ main article .alsobuy-block .alsobuy-slider li .img {
     margin-bottom: 10px;
     margin-top: -8px;
  }
- main article .alsobuy-block .alsobuy-slider li .name p {
+ .product-description main article .alsobuy-block .alsobuy-slider li .name p {
     text-transform: uppercase;
  }
- main article .alsobuy-block .alsobuy-slider li .price {
+ .product-description main article .alsobuy-block .alsobuy-slider li .price {
     font: 18px/1 PTSans-Narrow;
     color: #cc0000;
     text-align: center;
  }
- main article .alsobuy-block .alsobuy-slider li .price b {
+ .product-description main article .alsobuy-block .alsobuy-slider li .price b {
     font-weight: 800;
  }
- main article .alsobuy-block .alsobuy-slider .slick-arrow.slick-disabled {
+ .product-description main article .alsobuy-block .alsobuy-slider .slick-arrow.slick-disabled {
     display: none!important;
  }
- main article .alsobuy-block .alsobuy-slider .slick-prev {
+ .product-description main article .alsobuy-block .alsobuy-slider .slick-prev {
     border: none;
     outline: none;
     font-size: 0;
@@ -1192,10 +1192,10 @@ main article .alsobuy-block .alsobuy-slider li .img {
     opacity: 0.5;
     transition: opacity 400ms ease;
  }
- main article .alsobuy-block .alsobuy-slider .slick-prev:hover, main article .alsobuy-block .alsobuy-slider .slick-next:hover  {
+ .product-description main article .alsobuy-block .alsobuy-slider .slick-prev:hover, .product-description main article .alsobuy-block .alsobuy-slider .slick-next:hover  {
     opacity: 1;
  }
- main article .alsobuy-block .alsobuy-slider .slick-next {
+ .product-description main article .alsobuy-block .alsobuy-slider .slick-next {
     border: none;
     outline: none;
     font-size: 0;
@@ -1214,29 +1214,29 @@ main article .alsobuy-block .alsobuy-slider li .img {
 
 
 
-main aside .pdfs {
+.product-description main aside .pdfs {
     padding-top: 86px;
     margin-bottom: 60px;
 }
-main aside .pdfs .file {
+.product-description main aside .pdfs .file {
     height: 40px;
     padding-left: 48px;
     font: 22px/40px PTSans-Narrow;
     background: transparent url('../img/bg-pdf.png') no-repeat left center;
     margin-bottom: 22px;
 }
-main aside .pdfs .file:last-child {
+.product-description main aside .pdfs .file:last-child {
     margin: 0;
 }
-main aside .pdfs .file a {
+.product-description main aside .pdfs .file a {
     color: #000;
 }
-main aside .specification-block {
+.product-description main aside .specification-block {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-main aside .specification-block li {
+.product-description main aside .specification-block li {
     width: 63px;
     height: 63px;
     float: left;
@@ -1245,27 +1245,27 @@ main aside .specification-block li {
     background-position: center;
     background-size: cover;
 }
-main aside .specification-block li.atmospheric-resistance {
+.product-description main aside .specification-block li.atmospheric-resistance {
     background-image: url('../img/bg-spec-atmospheric-resistance.png');
 }
-main aside .specification-block li.bright-color {
+.product-description main aside .specification-block li.bright-color {
     background-image: url('../img/bg-spec-bright-color.png');
 }
-main aside .specification-block li.ideal {
+.product-description main aside .specification-block li.ideal {
     background-image: url('../img/bg-spec-ideal.png');
 }
-main aside .specification-block li.elastic {
+.product-description main aside .specification-block li.elastic {
     background-image: url('../img/bg-spec-elastic.png');
 }
-main article .tabs-wraper {
+.product-description main article .tabs-wraper {
 
 }
-main article .tabs-wraper .tabs {
+.product-description main article .tabs-wraper .tabs {
     list-style: none;
     margin: 0 0 36px 0;
     padding: 0;
 }
-main article .tabs-wraper .tabs li {
+.product-description main article .tabs-wraper .tabs li {
     float: left;
     width: 33%;
     box-sizing: border-box;
@@ -1277,89 +1277,89 @@ main article .tabs-wraper .tabs li {
     cursor: pointer;
     border-right: 2px solid #fff;
 }
-main article .tabs-wraper > .tabs li:last-child {
+.product-description main article .tabs-wraper > .tabs li:last-child {
     border: none;
 }
-main article .tabs-wraper > .tabs li.current {
+.product-description main article .tabs-wraper > .tabs li.current {
     background-color: #f5f5f5;
 }
-main article .tabs-wraper > .content {
+.product-description main article .tabs-wraper > .content {
     list-style: none;
     margin: 0 0 0 0;
     padding: 0;   
 }
-main article .tabs-wraper > .content li {
+.product-description main article .tabs-wraper > .content li {
     display: none;
 }
-main article .tabs-wraper > .content li.current {
+.product-description main article .tabs-wraper > .content li.current {
     display: block;
 }
-main article .tabs-wraper > .content li .block {
+.product-description main article .tabs-wraper > .content li .block {
     margin-bottom: 25px;
 }
-main article .tabs-wraper > .content .description h3 {
+.product-description main article .tabs-wraper > .content .description h3 {
     font: 22px/1 PTSans-Narrow;
     color: #cc0000;
     text-transform: uppercase;
     margin: 0 0 11px 0;
     padding: 0;
 }
-main article .tabs-wraper > .content .description .text {
+.product-description main article .tabs-wraper > .content .description .text {
     font: 22px/28px PTSans-Narrow;
     color: #969696;
     margin-bottom: 32px;
 }
-main article .tabs-wraper > .content .specifications {
+.product-description main article .tabs-wraper > .content .specifications {
     padding-top: 38px;
 }
-main article .tabs-wraper > .content .specifications .name {
+.product-description main article .tabs-wraper > .content .specifications .name {
     width: 250px;
     float: left;    
     font: 18px/24px PTSans-Narrow;
     color: #000;
 }
-main article .tabs-wraper > .content .specifications .text {
+.product-description main article .tabs-wraper > .content .specifications .text {
     font: 18px/24px PTSans-Narrow;
     color: #969696;
     float: right;
     width: 460px;
 }
-main article .tabs-wraper > .content .reviews {
+.product-description main article .tabs-wraper > .content .reviews {
     width: 500px;
 }
-main article .tabs-wraper > .content .reviews .item {
+.product-description main article .tabs-wraper > .content .reviews .item {
     margin-bottom: 40px;
 }
-main article .tabs-wraper > .content .reviews .item .name {
+.product-description main article .tabs-wraper > .content .reviews .item .name {
     font: 22px/1 PTSans-Narrow;
     color: #000;
     margin-bottom: 13px;
 }
-main article .tabs-wraper > .content .reviews .item .message {
+.product-description main article .tabs-wraper > .content .reviews .item .message {
     font: 22px/28px PTSans-Narrow;
     color: #969696;
     width: 600px;
 }
-main article .tabs-wraper > .content .reviews .form-block {
+.product-description main article .tabs-wraper > .content .reviews .form-block {
     padding-top: 20px;
 }
-main article .tabs-wraper > .content .reviews .form-block .title {
+.product-description main article .tabs-wraper > .content .reviews .form-block .title {
     font: 22px/1 PTSans-Narrow;
     margin-bottom: 28px;
 }
-main article .tabs-wraper > .content .reviews .form-block .title p {
+.product-description main article .tabs-wraper > .content .reviews .form-block .title p {
     color: #cc0000;
     padding: 0;
     margin: 0 0 7px 0;
 }
-main article .tabs-wraper > .content .reviews .form-block .title span {
+.product-description main article .tabs-wraper > .content .reviews .form-block .title span {
     color: #969696;
     display: block;
 }
-main article .tabs-wraper > .content .reviews .form-block .form {
+.product-description main article .tabs-wraper > .content .reviews .form-block .form {
     margin-bottom: 20px;
 }
-main article .tabs-wraper > .content .reviews .form-block .form .label {
+.product-description main article .tabs-wraper > .content .reviews .form-block .form .label {
     float: left;
     width: 150px;
     text-align: right;
@@ -1367,11 +1367,11 @@ main article .tabs-wraper > .content .reviews .form-block .form .label {
     color: #000;
     padding-top: 17px;
 }
-main article .tabs-wraper > .content .reviews .form-block .form .input {
+.product-description main article .tabs-wraper > .content .reviews .form-block .form .input {
     width: 330px;
     float: right;
 }
-main article .tabs-wraper > .content .reviews .form-block .form .input input {
+.product-description main article .tabs-wraper > .content .reviews .form-block .form .input input {
     width: 100%;
     height: 56px;
     box-sizing: border-box;
@@ -1382,7 +1382,7 @@ main article .tabs-wraper > .content .reviews .form-block .form .input input {
     outline: none;
     padding: 0 10px;
 }
-main article .tabs-wraper > .content .reviews .form-block .form .input textarea {
+.product-description main article .tabs-wraper > .content .reviews .form-block .form .input textarea {
     width: 100%;
     height: 140px;
     box-sizing: border-box;
@@ -1394,7 +1394,7 @@ main article .tabs-wraper > .content .reviews .form-block .form .input textarea 
     padding: 10px;
     resize: none;
 }
-main article .tabs-wraper > .content .reviews .form-block .form button {
+.product-description main article .tabs-wraper > .content .reviews .form-block .form button {
     background: none;
     border: none;
     font: 22px/45px PTSans-Narrow;
@@ -1405,4 +1405,16 @@ main article .tabs-wraper > .content .reviews .form-block .form button {
     background-color: #cc0000;
     float: right;
     margin-right: 20px;    
+}
+.product-list {}
+.product-list aside {
+    width: 297px;
+    float: left;
+}
+.product-list article {
+    background-color: red;
+    margin-left: 297px;
+}
+.product-list article .topfilter-block {
+    
 }
