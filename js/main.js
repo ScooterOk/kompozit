@@ -13,6 +13,7 @@ $(document).click(function(e){
   var t = e.target;  
   if(!$(t).closest('.select').length){
   	$('.select-options').slideUp(100);
+    $('.select').removeClass('on');
   }
   if(!$(t).closest('#volume-calculator').length){
   	$('#volume-calculator').fadeOut(100);
@@ -128,6 +129,44 @@ $('#amount-select i').click(function(e){
   }
   $('#amount-select input').val(val);
 });
+
+$('#top-filter-select').click(function(e){
+  if($(this).find('.select-options').is(':hidden')){
+    $(this).find('.select-options').slideDown(50);
+    $(this).addClass('on');
+  }else{
+    $(this).find('.select-options').slideUp(50);
+    $(this).removeClass('on');
+  }
+});
+
+$('#top-filter-select .options li').click(function(e){
+  var val = $(this).attr('data-value');  
+  $('#top-filter-options li').removeClass('current');
+  $(this).addClass('current');
+  $(this).closest('.select').find('.value').html(val);    
+});
+
+$('.product-list .options .volume-select .select').click(function(e){
+  var iscroll;
+  var options = $(this).find('.select-options')[0];
+  console.log(options);
+  if($(this).find('.select-options').is(':hidden')){
+    $(this).find('.select-options').slideDown(50, function(){      
+      iscroll = iscroll || new IScroll(options, {mouseWheel: true, scrollbars: true, fadeScrollbars : true});
+      iscroll.scrollTo(0, 0);
+    });
+  }else{
+    $(this).find('.select-options').slideUp(50);
+  }
+});
+$('.product-list .options .volume-select .options li').click(function(e){
+  var val = $(this).attr('data-value') + ' кг';  
+  $('.product-list .options .volume-select li').removeClass('current');
+  $(this).addClass('current');
+  $(this).closest('.select').find('.value').html(val);    
+});
+
 
 /*================================================================/
                     Calc Initialization
