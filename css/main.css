@@ -1479,6 +1479,7 @@ main aside .resistance-washing {
     top: 43px;
     box-sizing: border-box;
     overflow: hidden;
+    z-index: 1;
     display: none;
 }
 .product-list article .top-filter .sort-by .select .select-options .options {
@@ -1773,6 +1774,7 @@ main aside .resistance-washing {
     top: 43px;
     box-sizing: border-box;
     overflow: hidden;
+    z-index: 1;
     display: none;
  }
  .product-list .options .volume-select .select .select-options .options {
