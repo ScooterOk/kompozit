@@ -9,7 +9,7 @@
       overflow: hidden;
       float: right;
    }
-   .ink-grid {
+   .product-description .ink-grid {
       max-width: 940px;
       min-width: 940px;
    }
@@ -233,5 +233,65 @@
    .product-description main article .tabs-wraper > .content .reviews .form-block .form .input input, 
    .product-description main article .tabs-wraper > .content .reviews .form-block .form .input textarea {
       font: 18px/24px PTSans-Narrow;
+   }
+   .product-list .ink-grid {
+      max-width: 980px;
+      min-width: 980px;
+   }
+   .product-list article .products-list {
+      padding: 0 0 0 22px;
+   }
+   .product-list article .products-list li .product-image-wrapper {
+      width: 141px;
+   }
+   .product-list article .products-list li .product-image-wrapper img {
+      width: 141px;
+   }
+   .product-list article .products-list li .product-shop {
+      margin-left: 42px;
+      width: 292px;
+   }
+   .product-list .options .resistance-washing {
+      width: 180px;
+   }
+   .product-list .options .volume-select {
+      width: 81px;
+      margin-top: -18px;
+   }
+   .product-list .options .volume-select .label {
+      float: none;
+      line-height: 1;
+      margin-bottom: 4px;
+   }
+   .product-list .options .volume-select .select {
+      float: none;
+      width: 81px;      
+   }
+   .product-list .options .volume-select .select .value {
+      font: 18px/42px PTSans-Narrow;
+      padding-left: 9px;
+   }
+   .product-list .options .volume-select .select .select-options .options li {
+      font: 18px/40px PTSans-Narrow;
+   }
+   .product-list article .products-list li .catalog-buy-info {
+      width: 160px;
+   }
+   .product-list article .products-list li .catalog-buy-info .add-button {
+      width: 160px;
+      height: 42px;
+      font: 18px/42px 'pf_din_text_comp_proregular';
+   }
+   .product-list article .products-list > li {
+      padding-left: 0;
+   }
+   .product-list article .products-list li .catalog-buy-info .stock-price {
+      font: 22px/1 PTSans-Narrow;
+   }
+   .product-list article .products-list li .catalog-buy-info .regular-price {
+      font: 44px/1 PTSans-Narrow;
+   }
+   .product-list article .products-list li .catalog-buy-info .catalog-add-to-links a {
+      font: 15px/1 PTSans-Narrow;
    }
 }

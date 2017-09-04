@@ -1783,9 +1783,9 @@ main aside .resistance-washing {
     padding: 0;
  }
  .product-list .options .volume-select .select .select-options .options li {
-    height: 40px;
+    height: 33px;
     box-sizing: border-box;
-    font: 20px/40px PTSans-Narrow;
+    font: 20px/33px PTSans-Narrow;
     color: #000;
     padding: 0 33px 0 10px;
     overflow: hidden;
