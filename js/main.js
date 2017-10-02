@@ -187,3 +187,32 @@ $('#learn-more').click(function(e){
     mode.animate({scrollTop:t-90},300);
     return false;
 });
+
+/*================================================================/
+                    Left Col Initialization
+=================================================================*/
+var leftSideScroll;
+setTimeout(function(){
+  $('.product-list aside, .product-list .col-left-bg').css({
+    height : $('article .aside-left_calc').height(),
+    maxHeight : $(window).height() - 80
+  });
+      //leftSideScroll = leftSideScroll || new IScroll('#col-left_wrapper', {mouseWheel: true, scrollbars: true, fadeScrollbars : true});
+      //leftSideScroll.scrollTo(0, 0);
+}, 300);
+$(document).scroll(function(){
+  var topFix = $('main').offset().top - 80;
+  var botFix = $('main').offset().top + $('article .aside-left_calc').height() - $(window).height();
+  var s = $(this).scrollTop();  
+  console.log(s);
+  console.log(botFix);
+  if(s >= topFix && s < botFix){
+    $('.product-list aside').addClass('fixed');
+    $('.product-list aside').removeClass('bottom');
+  }else if(s >= botFix){
+    $('.product-list aside').removeClass('fixed');
+    $('.product-list aside').addClass('bottom');
+  }else{
+    $('.product-list aside').removeClass('fixed').removeClass('bottom');
+  }  
+})

@@ -1408,11 +1408,116 @@ main aside .resistance-washing {
 }
 .product-list {}
 .product-list aside {
-    width: 297px;
-    float: left;
+    width: 315px;
+    float: left; 
+    background-color: #0090e7;    
 }
+.product-list aside.fixed {
+    position: fixed;
+    top: 0;
+    height: 100%!important;
+    max-height: 100%!important;
+}
+.product-list aside.bottom {
+     position: relative;
+     max-height: 100%!important;
+}
+.product-list aside.fixed .col-left-bg .col-left-inner {
+    height: auto!important;
+}
+.product-list aside.bottom .col-left-bg {
+    position: absolute;
+    bottom: 0;
+    height: auto;
+}
+.product-list aside .col-left-bg {
+    width: 315px;    
+    box-sizing: border-box;
+    position: relative;
+    overflow-y: auto;
+}
+.product-list aside .col-left-bg .col-left-inner {
+    
+}
+.product-list aside.fixed {
+    padding-top: 80px;
+}
+.product-list aside .col-left-bg .block-title {
+    height: 85px;
+    font: 30px/84px PTSans-Narrow;
+    color: #fff;
+    padding-left: 45px;
+    border-bottom: 1px solid #56a4e4;
+    margin-bottom: 26px;
+    position: relative;
+}
+.product-list aside .col-left-bg .block-title::before {
+    content: "<";
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+.product-list aside .col-left-bg .block-title a {
+    color: #fff;
+    text-decoration: none!important;
+}
+.product-list aside .col-left-bg .kompozit-category-left-side {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.product-list aside .col-left-bg .kompozit-category-left-side > li {
+    font: 22px/1 PTSans-Narrow;
+    padding: 0 18px 0 18px;
+    position: relative;
+    margin-bottom: 18px;
+}
+.product-list aside .col-left-bg .kompozit-category-left-side > li.active > a {
+    color: #ffdf00;
+}
+.product-list aside .col-left-bg .kompozit-category-left-side .category-item::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #7dcdfe;
+    position: absolute;
+    right: 18px;
+    top: 10px;    
+}
+.product-list aside .col-left-bg .kompozit-category-left-side .category-item.active::after {
+    border-top: 6px solid #ffdf00;
+    transform: rotate(180deg);
+}
+.product-list aside .col-left-bg .kompozit-category-left-side > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+.product-list aside .col-left-bg .kompozit-category-left-side li a:hover {
+    color: #b2e1fe!important;
+}
+.product-list aside .col-left-bg .kompozit-category-left-side .category-item ul {
+    list-style: none;
+    margin: 0;
+    padding: 16px 0 0 0;
+    font: 17px/1 PTSans-Narrow;
+}
+.product-list aside .col-left-bg .kompozit-category-left-side .category-item ul li {    
+    font: 17px/21px PTSans-Narrow;
+    padding: 0 0 0 33px;
+    margin-bottom: 15px;
+}
+.product-list aside .col-left-bg .kompozit-category-left-side .category-item ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
 .product-list article {    
-    margin-left: 297px;
+    margin-left: 315px;
 }
 .product-list article .top-filter {
     background-color: #f2f2f2;
@@ -1427,7 +1532,7 @@ main aside .resistance-washing {
     width: 318px;
 }
 .product-list article .top-filter .sort-by label {
-    font: 18px/44px PTSans-Narrow;    
+    font: 18px/44px PTSans-Narrow;
     color: #b4b4b4;
     display: block;
     float: left;
@@ -1576,7 +1681,7 @@ main aside .resistance-washing {
     height: 0;
     line-height: 0;
     display: block;
-    clear: both;
+    clear: right;
 }
 .product-list article .products-list li .product-image-wrapper {
     float: left;
