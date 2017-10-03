@@ -1433,8 +1433,8 @@ main aside .resistance-washing {
 .product-list aside .col-left-bg {
     width: 315px;    
     box-sizing: border-box;
-    position: relative;
-    overflow-y: auto;
+    position: relative;    
+    overflow: hidden;
 }
 .product-list aside .col-left-bg .col-left-inner {
     
@@ -1463,7 +1463,7 @@ main aside .resistance-washing {
 }
 .product-list aside .col-left-bg .kompozit-category-left-side {
     list-style: none;
-    padding: 0;
+    padding: 0 0 20px 0;
     margin: 0;
 }
 .product-list aside .col-left-bg .kompozit-category-left-side > li {

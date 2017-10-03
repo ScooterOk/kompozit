@@ -65,6 +65,10 @@ $(window).resize(function(e){
     }else{
       $('.alsobuy-slider').slick('slickSetOption', 'slidesToShow', 4, true);
     }
+    $('.product-list aside, .product-list .col-left-bg').css({
+    height : $('article .aside-left_calc').height(),
+    maxHeight : $(window).height() - 80
+  });
 })
 
 
@@ -197,9 +201,9 @@ setTimeout(function(){
     height : $('article .aside-left_calc').height(),
     maxHeight : $(window).height() - 80
   });
-      //leftSideScroll = leftSideScroll || new IScroll('#col-left_wrapper', {mouseWheel: true, scrollbars: true, fadeScrollbars : true});
-      //leftSideScroll.scrollTo(0, 0);
-}, 300);
+      leftSideScroll = leftSideScroll || new IScroll('#col-left_wrapper', {mouseWheel: true, scrollbars: false, resize : true, fadeScrollbars : true, preventDefault : false});
+      leftSideScroll.scrollTo(0, 0);
+}, 100);
 $(document).scroll(function(){
   var topFix = $('main').offset().top - 80;
   var botFix = $('main').offset().top + $('article .aside-left_calc').height() - $(window).height();
