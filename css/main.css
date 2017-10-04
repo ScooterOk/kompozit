@@ -1442,28 +1442,27 @@ main aside .resistance-washing {
 .product-list aside.fixed {
     padding-top: 80px;
 }
-.product-list aside .col-left-bg .block-title {
+.product-list aside .block-title {
     height: 85px;
     font: 30px/84px PTSans-Narrow;
     color: #fff;
     padding-left: 45px;
-    border-bottom: 1px solid #56a4e4;
-    margin-bottom: 26px;
+    border-bottom: 1px solid #56a4e4;    
     position: relative;
 }
-.product-list aside .col-left-bg .block-title::before {
+.product-list aside .block-title::before {
     content: "<";
     position: absolute;
     top: 0px;
     left: 20px;
 }
-.product-list aside .col-left-bg .block-title a {
+.product-list aside .block-title a {
     color: #fff;
     text-decoration: none!important;
 }
 .product-list aside .col-left-bg .kompozit-category-left-side {
     list-style: none;
-    padding: 0 0 20px 0;
+    padding: 26px 0 20px 0;
     margin: 0;
 }
 .product-list aside .col-left-bg .kompozit-category-left-side > li {

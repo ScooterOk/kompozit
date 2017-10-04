@@ -65,10 +65,14 @@ $(window).resize(function(e){
     }else{
       $('.alsobuy-slider').slick('slickSetOption', 'slidesToShow', 4, true);
     }
-    $('.product-list aside, .product-list .col-left-bg').css({
-    height : $('article .aside-left_calc').height(),
-    maxHeight : $(window).height() - 80
-  });
+    $('.product-list aside').css({
+        height : $('article .aside-left_calc').height(),
+        maxHeight : $(window).height() - 80
+    });
+    $('.product-list .col-left-bg').css({
+        height : $('article .aside-left_calc').height() -86,
+        maxHeight : $(window).height() - 80 - 86
+    });
 })
 
 
@@ -197,9 +201,13 @@ $('#learn-more').click(function(e){
 =================================================================*/
 var leftSideScroll;
 setTimeout(function(){
-  $('.product-list aside, .product-list .col-left-bg').css({
+  $('.product-list aside').css({
     height : $('article .aside-left_calc').height(),
     maxHeight : $(window).height() - 80
+  });
+  $('.product-list .col-left-bg').css({
+    height : $('article .aside-left_calc').height() - 86,
+    maxHeight : $(window).height() - 80 - 86
   });
       leftSideScroll = leftSideScroll || new IScroll('#col-left_wrapper', {mouseWheel: true, scrollbars: false, resize : true, fadeScrollbars : true, preventDefault : false});
       leftSideScroll.scrollTo(0, 0);
